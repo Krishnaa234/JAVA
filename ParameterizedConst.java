@@ -9,9 +9,6 @@ class result {
         b=d;
         h=c;
     }
-    result() {
-        System.out.println("cbciuw");
-    }
     public double vol() {
         double v = l*b*h;
         return(v);
