@@ -1,4 +1,5 @@
 //input 3 subject marks and find the grade
+//exception handling when marks are less than 0 and more than 50
 import java.util.*;
 class less extends Exception {
     public String toString() {
