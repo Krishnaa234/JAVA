@@ -2,12 +2,13 @@
 public class ThreadInJava extends Thread{
   public void run()
   {
-		System.out.print("Thread is Running.");
-	}
+	System.out.print("Thread is Running.");
+  }
   
   public static void main(String args[]){  
-		Question61 thread=new Question61();  
-    // Start the thread
-		thread.start();
-	}  
+	ThreadInJava thread=new ThreadInJava();  
+    	
+	// Start the thread
+	thread.start();
+  }  
 }
