@@ -20,3 +20,10 @@ public class TwoThreads extends Thread{
      
      }  
 }
+
+/*OUTPUT
+Name of thread 't1':Thread-0
+Name of thread 't2':Thread-1
+New name of thread 't1':Week 6 Assignment Q5
+New name of thread 't2':Week 6 Assignment Q5 New
+*/
